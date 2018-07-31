@@ -1,0 +1,70 @@
+body {
+	background: linear-gradient(#e6ffe6, #001a00);
+	color: #e6ffe6;
+	text-align: center;
+}
+
+h1 {
+	color: #001a00;
+}
+
+button {
+	height: 160px;
+	width: 160px;
+	margin: 10px;
+	background-color: #264040;
+	border-radius: 100px;
+}
+
+button img {
+	height: 75%;
+	width: 75%;
+}
+
+button img:hover {
+	transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+}
+
+h1 {
+	font-size: 350%;
+}
+
+#game {
+	padding: 2% 25% 0% 25%;
+}
+
+.score{
+  border: 5px solid #292e49;
+  width: 160px;
+  margin: 20px auto;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.font {
+	font-family: 'Kaushan Script', cursive;
+}
+
+.result{
+  font-size: 25px;
+}
+.result>p{
+  text-align: center;
+  font-weight: bold;
+}
+
+#reset button {
+	height: 40px;
+	width: 80px;
+	color: #001a00;
+	background-color: #abbaab;
+	font-weight: bold;
+}
+
+#reset button:hover {
+	transform: scale(1.1);
+}
